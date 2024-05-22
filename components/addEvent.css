@@ -1,0 +1,55 @@
+.parent {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.parent label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.parent input[type="text"],
+.parent input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.parent button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.parent button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.parent img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 50px;
+  margin-left: calc(50% - 150px / 2);
+}

@@ -1,0 +1,70 @@
+.logo {
+  height: 50px;
+  margin-right: 3rem;
+}
+
+.top_page {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.download .button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 160px !important;
+  height: 35px;
+  background-color: rgb(120, 185, 238);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download .forImg {
+  position: relative;
+  height: min-content;
+  padding: 0;
+  width: 200px;
+  float: left !important;
+  margin: 10px;
+}
+
+
+.download .forImg img {
+  width: 100%;
+}
+
+.download .download_imge {
+  position: absolute;
+  background: #000;
+  opacity: 0.8;
+  height: 40%;
+  width: 100%;
+  bottom: 14px;
+  left: 10px;
+  border-radius: 0 0 11px 11px;
+  align-items: center;
+  display: none;
+  justify-content: center;
+}
+
+.download .download_imge .icon {
+  transform: scale(3);
+}
+
+.download .forImg:hover .download_imge {
+  display: flex;
+}

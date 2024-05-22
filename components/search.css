@@ -1,0 +1,71 @@
+.logo {
+    height: 50px;
+    margin-right: 3rem;
+        
+  }
+.logo img {
+    height: 100%; /* Ensure the image fits the height of the logo container */
+    width: 100%; /* Maintain the aspect ratio */
+}
+.title {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 3em;
+}
+
+.description {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: #5E86FF;
+    font-weight: bold;
+}
+
+.search
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    gap: 20px;
+    /* height: 1000px; */
+    
+}
+
+.text-box {
+
+    width: 12%;
+    display: block;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(120, 185, 238);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow-icon {
+    font-size: 24px; /* Adjust the size as needed */
+  }
+  
